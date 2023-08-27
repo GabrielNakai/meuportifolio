@@ -1,0 +1,12 @@
+.centro {
+    text-align: center;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    font-family: arial;
+    font-size: 50px;
+  }
+  body{
+    background-image: url(https://st2.depositphotos.com/1022597/11046/i/950/depositphotos_110469380-stock-photo-light-blue-background-with-shiny.jpg);
+  }

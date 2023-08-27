@@ -1,0 +1,24 @@
+body{
+    background-image: url(https://st2.depositphotos.com/1022597/11046/i/950/depositphotos_110469380-stock-photo-light-blue-background-with-shiny.jpg);
+  }
+  h1{
+    font-family: arial;
+  }
+
+  h2{
+    font-family: arial;
+  }
+
+  p{
+    font-family: arial;
+  }
+
+  .texto-esquerda {
+    float: left;
+    width: 50%;
+  }
+
+  .texto-direita {
+    float: left;
+    width: 50%;
+  }

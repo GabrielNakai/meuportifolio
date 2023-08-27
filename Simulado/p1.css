@@ -1,0 +1,12 @@
+header{
+    background-color: blue;
+    color:white
+}
+footer{
+    background-color: rgb(223, 217, 217);
+}
+div{
+    background-color: rgb(223, 217, 217);
+    display: flex;
+    justify-content: space-around; 
+}

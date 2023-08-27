@@ -1,0 +1,10 @@
+footer{
+    background-color: rgb(223, 217, 217);
+}
+header{
+    background: rgb(186, 178, 178);
+}
+div{
+    display: flex;
+    justify-content: space-around; 
+}

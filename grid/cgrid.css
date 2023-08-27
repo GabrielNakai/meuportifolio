@@ -1,0 +1,56 @@
+.container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+  "fortnite fortnite fortnite pubg"
+  "fortnite fortnite fortnite slack"
+  "gridoutro gridoutro csgo whatsapp"
+  ;
+  gap: 10px;
+}
+
+.filho{
+  background-size: cover;
+}
+
+.container .filho:nth-child(1){
+grid-area:fortnite ;
+background-image: url(fortnite.jpg);
+height: 500px;
+width: 1100px;
+}
+.container .filho:nth-child(2){
+  grid-area:pubg ;
+  background-image: url(pubg.jpg);
+  width: 370px;
+  height: 250px;
+}
+.container .filho:nth-child(3){
+  grid-area:slack ;
+  background-image: url(slack.png);
+  width: 370px;
+  height: 250px;
+}
+.container .filho:nth-child(4){
+  grid-area:gridoutro ;
+  display: flex;
+  justify-content: space-around;
+}
+.container .filho:nth-child(5){
+  grid-area:csgo ;
+  background-image: url(cs-go.jpg);
+  width: 367px;
+  height: 100px;
+}
+.container .filho:nth-child(6){
+  grid-area:whatsapp ;
+  background-image: url(whatsapp.png);
+  width: 370px;
+  height: 100px;
+}
+
+header .menu{
+  display:flex;
+  gap: 100px;
+}

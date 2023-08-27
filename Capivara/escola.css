@@ -1,0 +1,17 @@
+.sla{
+    text-align: center;
+    color: green;
+}
+.tabela{
+    background-color: green;
+    color: white;
+    text-align: left;
+  
+    
+}
+td{
+    font-size: large;
+}
+.margem{
+    margin-top: 70px;
+}
